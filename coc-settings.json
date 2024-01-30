@@ -2,5 +2,13 @@
   "coc.preferences.extensionUpdateCheck": "daily",
   "suggest.noselect": true,
   "suggest.enablePreselect": false,
-  "snippets.userSnippetsDirectory": "/home/don/.vim/plugged/vim-snippets/snippets"
+  "snippets.userSnippetsDirectory": "/home/don/.vim/plugged/vim-snippets/snippets",
+  "explorer.width": 30,
+  "explorer.keyMappings.global": {
+    "i": false,
+    "j": ["wait","collapse"],
+    "l": ["wait", "expandable?", "expand", "open"],
+    "ll": "open:vsplit",
+    "s": "open:split"
+  }
 }
